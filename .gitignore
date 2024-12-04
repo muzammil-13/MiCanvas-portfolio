@@ -1,0 +1,64 @@
+# Python/Django Specific Ignores
+## Virtual Environment
+backend_env/
+venv/
+*.env
+
+## Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+## Django Specific
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# React/Frontend Ignores
+## Dependency Directories
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+
+## Production Build
+frontend/build/
+frontend/dist/
+
+## Environment Files
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+## NPM Debugging
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# IDE and Editor Specific
+## Visual Studio Code
+.vscode/
+*.code-workspace
+
+## PyCharm
+.idea/
+
+## Jupyter Notebooks
+.ipynb_checkpoints/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Security and Sensitive Information
+*.key
+*.pem
+*.cert
+*.sage.py  # Sensitive data
